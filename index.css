@@ -1,0 +1,798 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main_container {
+    height: 97rem;
+    width: 99.7%;
+
+
+}
+.whitebox{
+    position: absolute;
+    height:50px;
+    width:30%;
+    background-color:white;
+    top: 200px;
+}
+
+#bar {
+    display:none;
+}
+#bar2{
+    display:none;
+}
+.navigation {
+    background-color: lavender;
+    height: 70px;
+    width: 99.6%;
+    position: fixed;
+    top: 0px;
+
+    padding-top: 10;
+
+}
+
+.navigation_img {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    width: 5%;
+    height: 40px;
+    
+
+
+}
+
+.navigation p {
+    margin-top: 49px;
+    font-size: 9px;
+    margin-left: 19px;
+    color: white;
+    padding-left: 7px;
+    width: 5%;
+    background-color:  darkgreen;
+}
+
+#mylist {
+
+    display: flex;
+    margin-top: -55px;
+    margin-left: 50%;
+}
+
+#mylist li {
+
+    list-style: none;
+    margin-left: 20px;
+    border-right: 2px solid orangered;
+
+    padding-right: 20px;
+}
+
+#mylist a {
+    text-decoration: none;
+    color: rgb(72, 129, 152);;
+    font-size: 17.5px;
+    font-weight: bold;
+
+
+}
+
+#mylist li a:hover {
+    color: orangered;
+    font-weight: bolder;
+    font-size: 20px;
+
+}
+
+
+.container1 {
+   
+
+    height: 500px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
+
+}
+
+.container11 {
+
+
+    background-image: url(selective-focus-shot-adorable-dog-laying-grassy-field.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 70px;
+    box-shadow: inset 5px 5px 5px 10px lavender;
+
+
+
+
+}
+
+#paw {
+    font-size: 30px;
+    position: absolute;
+    top: 150px;
+    right: 420px;
+    
+
+
+
+}
+
+.container12 {
+  
+    background: lavender;
+ 
+    padding-top:10px;
+    margin-top: 20px;
+
+
+}
+
+.container12 h1 {
+    
+    margin-top: 100px;
+    border-top: 2px solid orangered;
+    border-bottom: 2px solid orangered;
+    width: 52%;
+   
+    margin-left: 90px;
+    font-family: Montserrat;
+    margin-bottom: 45px;
+    color: rgb(72, 129, 152);
+    padding-left: 80px;
+    font-size: 30px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,
+            darkgreen 0%,
+            rgb(72, 129, 152)29%,
+            skyblue 67%,
+            orangered 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    display: inline-block;
+
+}
+
+@keyframes textclip {
+    to {
+        background-position: 200% center;
+    }
+}
+
+
+
+.container12 p {
+    font-family: Source Sans Pro;
+    font-size: 18px;
+    padding-left: 20px;
+
+}
+
+.container13 {
+    font-weight: bold;
+}
+
+
+.container12button {
+  padding: 0.6em 2em;
+  top:10px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  left:30%;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+
+.container12button:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff
+
+   
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+
+
+
+
+
+
+.designborder {
+    
+    height: 360px;
+    width: 100%;
+    background: lavender;
+
+    padding: 50px;
+   
+
+    box-shadow: inset 0px 50px 10px 20px lavender;
+
+
+
+}
+
+.designborder>p {
+    font-family: Source Sans Pro;
+    font-size: 16px;
+ 
+}
+
+.designborder h1 {
+    text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+ 
+    font-family: Montserrat;
+    color: SteelBlue;
+    font-size: 22px;
+
+  
+
+   
+}
+
+
+
+
+.main_container2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+
+    grid-auto-rows: minmax(350px, 600px);
+
+    background: lavender;
+}
+
+
+
+.box1 {
+    background-image: url(close-up-hand-holding-dog-paw.jpg);
+    background-size: cover;
+    height:300px;
+    width:100%;
+    margin-left: 20px;
+    margin-top: 200px;
+
+}
+
+.box2 {
+    background-image: url(e6mmqmducags9ema81vqg4lssvin112lzmqib9g8jpg.jpg);
+    background-size: cover;
+    height:300px;
+    width:90%;
+    margin-left: 30px;
+    margin-top: 200px;
+}
+
+.box3 {
+    background-image: url(close-up-veterinarian-taking-care-dog.jpg);
+    background-size: cover;
+    height:300px;
+    width:100%;
+    margin-top: 200px;
+}
+
+.formbutton {
+
+    height: 60px;
+    width: 99.9%;
+    background: lavender;
+}
+
+.formbutton button {
+    padding: 0.6em 2em;
+    top:-20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+
+    border-radius: 10px;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  
+  .formbutton button:before {
+    content: "";
+    background: linear-gradient(
+      45deg,
+      #ff0000,
+      #ff7300,
+      #fffb00,
+      #48ff00,
+      #00ffd5,
+      #002bff,
+      #7a00ff,
+      #ff00c8,
+      #ff0000
+    );
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing-button-85 20s linear infinite;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+  }
+  
+  @keyframes glowing-button-85 {
+    0% {
+      background-position: 0 0;
+    }
+    50% {
+      background-position: 400% 0;
+    }
+    100% {
+      background-position: 0 0;
+    }
+  }
+  
+
+
+
+.footer1 {
+    height: 450px;
+    display: flex;
+
+    background-color: darkslategray;
+}
+
+.footer1>div {
+    width: 35%;
+    height: 300px;
+
+    color: white;
+    padding: 50px;
+    font-size: 15px;
+    font-family: Source Sans Pro;
+}
+
+.footer1 h2 {
+   
+    text-align: center;
+    margin-bottom: 20px;
+    color: lightseagreen;
+    font-size: 20px;
+    font-family: Montserrat;
+
+
+}
+
+.footer1_box3 li {
+    margin-left: 20%;
+}
+
+.footer2 {
+    color:SteelBlue;;
+
+    background: lavender;
+    text-align: center;
+    font-family: Source Sans Pro;
+}
+
+#contact {
+    margin-top: 20px;
+    color: SteelBlue;
+    font-size: 18px;
+  
+}
+
+.footer2>h5 {
+    padding: 20px;
+    margin-top: -80px;
+}
+
+#fac {
+z-index: 1;
+
+    color: blue;
+   
+}
+
+.regform {
+    position: absolute;
+    top: 150px;
+    left: 30%;
+    display: none;
+    z-index: 1;
+    background-color: lavender;
+    height: 500px;
+    width: 40%;
+    box-shadow: inset 20px 10px 50px lavender;
+    box-shadow: 10px 10px 20px lightskyblue;
+}
+
+.regform h1 {
+    color: darkslategray;
+
+    text-align: center;
+    margin-top: 40px;
+}
+
+.regform h2 {
+    color: rgba(0, 0, 255, 0.637);
+    font-size: 20px;
+    text-align: center;
+    font-family: Source Sans Pro;
+    padding: 20px;
+}
+
+.regform h3 {
+
+    margin-top: 20px;
+    color: rgba(0, 0, 255, 0.637);
+    font-family: Source Sans Pro;
+    margin-left:20%;
+
+
+}
+
+.regform button {
+ 
+top:30px;
+      padding: 0.6em 2em;
+      border: none;
+      outline: none;
+      color: rgb(255, 255, 255);
+      background: #111;
+      cursor: pointer;
+      position: relative;
+      z-index: 0;
+      border-radius: 10px;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    
+    .regform button:before {
+      content: "";
+      background: linear-gradient(
+        45deg,
+        #ff0000,
+        #ff7300,
+        #fffb00,
+        #48ff00,
+        #00ffd5,
+        #002bff,
+        #7a00ff,
+        #ff00c8,
+        #ff0000
+      );
+      position: absolute;
+      top: -2px;
+      left: -2px;
+      background-size: 400%;
+      z-index: -1;
+      filter: blur(5px);
+      -webkit-filter: blur(5px);
+      width: calc(100% + 4px);
+      height: calc(100% + 4px);
+      animation: glowing-button-85 20s linear infinite;
+      transition: opacity 0.3s ease-in-out;
+      border-radius: 10px;
+    }
+    
+    @keyframes glowing-button-85 {
+      0% {
+        background-position: 0 0;
+      }
+      50% {
+        background-position: 400% 0;
+      }
+      100% {
+        background-position: 0 0;
+      }
+    }
+    
+    .regform button:after {
+      z-index: -1;
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: #222;
+      left: 0;
+      top: 0;
+      border-radius: 10px;
+    }
+
+.regform button:hover {
+    background-color: rgba(0, 128, 0, 0.72);
+}
+
+.form-control {
+    margin-left: 50%;
+    width:30%;
+    margin-top: -50px;
+}
+
+
+
+
+
+#close {
+    position: absolute;
+    top: 7px;
+    left: 95%;
+    font-size: 20px;
+    color: gray;
+}
+
+#close:hover {
+    color: orangered;
+}
+
+#close2 {
+    position: absolute;
+    top: -1px;
+    left: 340px;
+}
+
+
+.carousel{
+    z-index: -1;
+    width:100%;
+height: 670px;
+
+}
+#slides_1{
+    width:100%;
+    height: 670px;
+}
+.carousel-caption>h5{
+  position:absolute;
+  top:-500px;
+  left:0%;
+font-size: 40px;
+}
+.carousel-caption>p{
+    position:absolute;
+    top:-420px;
+    left:0%;
+    margin-right: 250px;
+      font-size: 20px;
+      text-align: left;
+  }
+
+
+/* -------------------------------------------------------------------------------------------------- */
+ @media only screen and (max-width: 1020px) {
+    .navigation {
+        font-size: 10px;
+        height: 120px;
+        width: 100%;
+        position: fixed;
+        top: 0px;
+     }
+     
+    #bar2{
+        float: right;
+        display: none;
+        position: absolute;
+        right:40px;
+        top:20px;
+        font-size: 30px ;
+     } 
+
+    #mylist {
+       display:none;
+        height: 200px;
+        width:170px;
+        background-color:aliceblue;
+        margin-top: -120px;
+        padding-top:40px;
+        margin-left: 80%;
+        
+       
+
+    }
+    #bar{
+        float: right;
+        display: block;
+        position: absolute;
+        right:40px;
+        top:40px;
+        font-size: 30px;
+    }
+    .navigation_img {
+
+        width: 10%;
+        height: 70px;
+        margin-left: -13px;
+    }
+  
+
+    .navigation p {
+        margin-top: 80px;
+      width:10%;
+        font-size: 15px;
+        margin-left: 5px;
+        padding-left: 10px;
+
+    }
+   
+
+    
+    .container1 {
+        position: relative;
+        height: 1000px;
+        width: 100%;
+        margin-top: 80px;
+        border: 1px solid #999;
+        z-index: -1;
+
+    }
+
+    .container11,
+    .container12 {
+        position: absolute;
+    }
+
+    .container11 {
+
+        margin-top: -10px;
+        height: 500px;
+        width: 100%;
+    }
+    
+
+    .container12 {
+        height: 500px;
+        bottom: 1px;
+        width: 100%;
+     
+        
+       
+        
+    }
+    .container12 p{
+        text-align: center;
+    }
+
+    
+    .container12 h1{
+        margin-left:25%;
+padding-left:70px;
+text-align: center;
+
+    }
+
+   
+  .main_container2{ 
+  
+    width:100%;
+    height:400px;
+    
+   background-color: lavender;
+  }
+  .main_container2 div{
+    margin-top: 60px;
+  }
+
+    
+
+
+    #paw {
+        font-size: 30px;
+        position: absolute;
+        top: 110px;
+        left: 30%;
+      
+    }
+
+    .container12button {
+        width: 20%;
+        margin-left: 10%;
+        margin-top: 50px;
+    }
+
+    .designborder {
+     
+        height: 600px;
+        width: 100%;
+     font-size:5px;
+        z-index: -1;
+    }
+
+   
+
+    #contact
+    {
+        margin-left: -50px;
+        margin-top: 70px;
+        margin-right: -70px;
+    }
+
+    .regform{
+        width:70%;
+        height: 450px;
+        position:absolute;
+    left:10px;
+      
+        
+    }
+    .carousel-caption>h5{
+        position:absolute;
+        font-size: 5px;
+        top:-500px;
+        left:-10%;
+      font-size: 40px;
+      }
+      .carousel-caption>p{
+          position:absolute;
+          top:-420px;
+          left:-10%;
+          font-size: 20px;
+            text-align: left;
+        }
+     .footer1{
+        height:600px;
+        font-size:20px ;
+     } 
+     
+}
